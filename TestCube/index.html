@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!---->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <script defersrc="main.js"></script>
+    <title> WebSiteKevin</title>
+</head>
+<body>
+    <main>
+        <aside>
+            <ul class="Links">
+              <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                <p>Home</p>
+              </li>
+              <li onclick="Navigate(1)"><i class="fa-solid fa-user"></i>
+                <p>About Me</p>
+              </li>
+              <li onclick="Navigate(2)"><i class="fa-solid fa-list"></i>
+                <p>Services</p>
+              </li>
+              <li onclick="Navigate(3)"><i class="fa-solid fa-images"></i>
+                <p>Gallery</p>
+              </li>
+              <li onclick="Navigate(4)"><i class="fa-solid fa-comments"></i>
+                <p>Contact Me</p>
+              </li>
+            </ul>
+          </aside>
+          <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! I'm <span class="stylized-name">Kevin</span>,</h1>
+                        <h2>A <span class="professions">Game Developer</span></h2>
+                        <p class="heroline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia iste tenetur dolor quis officiis quidem sapiente illo nostrum mollitia.</p>
+                        <div class="buttonGroup"><button>Contact Me</button></div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <img src="main.jpg" alt="">
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i></p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Muzammal, <span class="proffessions">A Web Developer</span></h3>
+                    <p class="aboutme-details">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iure, iste debitis unde maiores earum, ipsam quaerat quo magni sunt nisi at ullam nostrum pariatur soluta mollitia omnis consectetur qui similique doloribus vitae sit est in modi. Officia libero, animi repellendus debitis labore ipsa exercitationem ut ex. Natus ullam officiis qui fuga optio incidunt, ipsum atque ducimus quas ad eveniet nulla sit consectetur velit inventore possimus quae provident, repudiandae eaque sed quos mollitia omnis error. Hic animi porro asperiores ratione voluptatibus commodi, architecto officia nobis ducimus sint, placeat enim? Ab obcaecati ad provident et possimus. Ullum ipsa laborum sint autem!
+                    </p>
+                </div>
+              <h1 class="heading">Services</h1>
+              <div class="service">
+                <div class="service-icon">
+                  <i class="fa-solid fa-pen-ruler"></i>
+                </div>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quod.</p>
+              </div>
+              <div class="service">
+                <div class="service-icon">
+                  <i class="fa-solid fa-globe"></i>
+                </div>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quod.</p>
+              </div>
+              <div class="service">
+                <div class="service-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <h2>SEO</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, quod.</p>
+              </div>
+            </div>
+            <div class="swiper-slide gallery">
+              <h1 class="heading">Gallery</h1>
+              <img src="https://picsum.photos/200/300?random=1" alt="Random image">
+            </div>
+            <div class="swiper-slide contact">
+              <h1 class="heading">Contact Me</h1>
+              <div class="contactinfo">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone No:</h3>
+                <p>(+33) 000000000</p>
+              </div>
+              <div class="contactinfo">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Location</h3>
+                <p>Somewhere On Earth</p>
+              </div>
+              <div class="contactinfo">
+                <i class="fa-regular fa-envelope"></i>
+                <h3>Email</h3>
+                <p>abc123@gmail.com</p>
+              </div>
+              <div class="contactinfo">
+                <i class="fa-solid fa-globe"></i>
+                <h3>Website</h3>
+                <p>www.abc123.com</p>
+              </div>
+              <form>
+                <h2>Send Me A Message</h2>
+                <div class="Sociallinks">
+                  <i class="fa-brands fa-codepen"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="email">
+                <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                <button class="primary">Send</button>
+              </form>
+            </div>
+          </div>
+          
+          <section class="aboutMe">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat neque eu eros accumsan, non facilisis nisi ultricies.</p>
+            <div class="experience">
+              <h2>Experience</h2>
+              <ul>
+                <li>Student</li>
+                <li>Country: France</li>
+                <li>Availability: Full-Time</li>
+                <li>30 years</li>
+                <li>Phone: (+33) 000000000</li>
+                <li>Languages Used: C, C++, C#, Unity, Unreal </li>
+              </ul>
+            </div>
+            <div class="buttons">
+              <button>Contact Me</button>
+            </div>
+            <div class="skillBar">
+              <h2>Skill Bar</h2>
+              <div class="progress">
+                <div class="progress-bar html" style="width: 80%;">HTML - 80%</div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar css" style="width: 70%;">CSS - 70%</div>
+              </div>
+            </div>
+          </section>
+    </main>
+</body>
